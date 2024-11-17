@@ -131,7 +131,7 @@ const App = () => {
     const saveDataToDatabase = () => {
       const { temperature, humidity, concentration, foodRate, waterRate } = sensorData;
       // Gửi yêu cầu POST đến server
-      axios.post('http://localhost:3000/api/sensor-data', {
+      axios.post('http://localhost:3001/api/sensor-data', {
         temperature: parseFloat(temperature),
         humidity: parseFloat(humidity),
         concentration: parseFloat(concentration),

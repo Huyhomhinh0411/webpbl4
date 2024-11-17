@@ -43,16 +43,3 @@
   app.listen(port, () => {
     console.log(`Server đang chạy tại http://localhost:${port}`);
   });
-
-  // Endpoint để lấy dữ liệu cảm biến từ database
-app.get('/api/sensor-data', (req, res) => {
-  const sql = 'SELECT * FROM sensor_data ORDER BY id DESC LIMIT 50'; // Lấy 50 dữ liệu mới nhất
-
-  connection.query(sql, (err, results) => {
-    if (err) {
-      console.error('Lỗi khi lấy dữ liệu: ' + err);
-      return res.status(500).json({ error: 'Lỗi khi lấy dữ liệu' });
-    }
-    res.status(200).json(results);
-  });
-});
