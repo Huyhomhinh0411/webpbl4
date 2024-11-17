@@ -262,7 +262,7 @@ const App = () => {
         <button onClick={handleTimeSubmit}>Gửi Thời Gian</button>
       </div>
 
-<div>
+<div className="trangthai">
   <h3>Trạng thái thiết bị</h3>
   <ul>
     <li>Máy bơm 1: {deviceStatus.mayBom1}</li>

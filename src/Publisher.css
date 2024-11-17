@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-@import url('/node_modules/@fortawesome/fontawesome-free/css/all.min.css');
+@import url('../node_modules/@fortawesome/fontawesome-free/css/all.min.css');
 
 /* Thiết lập chung cho body */
 body {
@@ -18,7 +18,7 @@ body {
   padding: 20px;
 
   /* Hình nền */
-  background-image: url('C:/Users/ADMIN/Downloads/web test/huy-app/anhnen.jpg');
+  background-image: url('./anhnen.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -279,4 +279,13 @@ body::before {
   background-color: #4caf50; /* Màu xanh đậm khi bấm */
   transform: translateY(2px); /* Hiệu ứng nút bị nhấn */
 }
+
+.trangthai {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1px;
+}
+
 
