@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/webpbl4/static/css/main.49567f7a.css",
+    "main.js": "/webpbl4/static/js/main.c18126be.js",
+    "static/js/453.cfb19e34.chunk.js": "/webpbl4/static/js/453.cfb19e34.chunk.js",
+    "static/media/anhnen.jpg": "/webpbl4/static/media/anhnen.a2529b9fb070e2eee671.jpg",
+    "static/media/fa-solid-900.ttf": "/webpbl4/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/webpbl4/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/webpbl4/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/webpbl4/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/webpbl4/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/webpbl4/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/webpbl4/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/webpbl4/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/webpbl4/index.html",
+    "main.49567f7a.css.map": "/webpbl4/static/css/main.49567f7a.css.map",
+    "main.c18126be.js.map": "/webpbl4/static/js/main.c18126be.js.map",
+    "453.cfb19e34.chunk.js.map": "/webpbl4/static/js/453.cfb19e34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49567f7a.css",
+    "static/js/main.c18126be.js"
+  ]
+}
